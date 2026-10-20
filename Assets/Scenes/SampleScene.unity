@@ -641,6 +641,7 @@ MonoBehaviour:
   cloudC: {fileID: 4804929825115180771, guid: 93443dd06f11e6f4fbf49e35f3590faa, type: 3}
   spawnMin: {fileID: 498397436}
   spawnMax: {fileID: 362326240}
+  cloudDensity: 0.3
 --- !u!4 &804528112
 Transform:
   m_ObjectHideFlags: 0
