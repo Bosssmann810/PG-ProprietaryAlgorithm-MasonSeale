@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3759713583274484581}
   - component: {fileID: 8682629836179085972}
   - component: {fileID: 46521658867998217}
+  - component: {fileID: -994908641607216257}
   m_Layer: 0
   m_Name: cloudC
   m_TagString: Untagged
@@ -114,3 +115,17 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-994908641607216257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4804929825115180771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a086cce869526a442b83a094e1911b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CloudMover
+  cloud: {fileID: 4804929825115180771}
+  speed: 0
